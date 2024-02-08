@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>E-books App</title>
+    <script src="script.js"></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="readBooks">
+    <div class="container">
+        <header>
+            E-books App
+        </header>
+
+        <button id="readBtn">Переглянути книги</button>
+
+        <div class="content">
+
+            <h1>Книги</h1>
+            <button onclick="readBooks()">Переглянути книги</button>
+            <br>
+            <br>
+            <form id="addBookForm">
+                <label for="title">Назва*:</label>
+                <input type="text" id="title" name="title">
+                <br>
+                <label for="author">Автор:</label>
+                <input type="text" id="author" name="author">
+                <br>
+                <button type="button" onclick="createBook()">Додати книгу</button>
+            </form>
+            <br>
+            <br>
+            <table>
+                <thead>
+                    <th>Назва</th>
+                    <th>Автор</th>
+                    <th>Дії</th>
+                </thead>
+                <tbody id="booksTable"></tbody>
+            </table>
+        </div>
+    </div>
+</body>

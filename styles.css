@@ -1,0 +1,93 @@
+/* Resetting default margin and padding for all elements */
+* {
+  margin: 10;
+  padding: 5;
+}
+
+/* Basic styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f4f4f4;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.menu {
+  background-color: #333;
+  color: #fff;
+}
+
+.menu ul {
+  list-style: none;
+  padding: 20px;
+}
+
+.menu ul li {
+  display: inline;
+  margin-left: 20px;
+  margin-bottom: 10px;
+}
+
+.menu ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.content {
+	width: 100%;
+	height: 80%;
+  	flex-grow: 1;
+  	padding: 20px;
+}
+
+header {
+  background-color: #333;
+  font-size: 30pt;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+footer {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+}
+
+button{
+  background-color: #369;
+  border-radius: 5px;
+  border: 0;
+  padding: 10px;
+  color: #ccc;
+}
+
+#output, #results{
+  border: 1px solid #000;
+  height: 150px;
+  width: 800px;
+  margin-top:10px;
+}
+
+input{
+  margin: 10px;
+  padding: 5px;
+}
+
+table{
+  border-collapse: collapse;
+}
+table td, th{
+  margin: 0;
+  padding: 5px;
+  border: 1px solid #aaa;
+}
+label{
+  display:inline-block;
+  width:100px;
+}
